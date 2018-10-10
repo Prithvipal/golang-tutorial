@@ -26,7 +26,7 @@ func main() {
 
 	//Get and Print only value. Using _(blank identifiers) for keys
 	fmt.Println("======================")
-	fmt.Println("Printing only keys")
+	fmt.Println("Printing only Values")
 	for _, value := range alphabetMap {
 		fmt.Println("Value =", value)
 	}
